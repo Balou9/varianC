@@ -1,0 +1,25 @@
+{
+  "name": "varianc",
+  "version": "0.0.0",
+  "description": "Variance",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/varianc.git"
+  },
+  "keywords": [
+    "variance"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/varianc/issues"
+  },
+  "homepage": "https://github.com/Balou9/varianc#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
