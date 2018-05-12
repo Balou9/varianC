@@ -4,7 +4,7 @@
 
 ***
 
-Get Variance on array
+Get the average squared deviation of each observation from its arithmetic mean
 
 ***
 

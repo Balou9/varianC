@@ -6,18 +6,15 @@ function sum (arr) {
   return result
 }
 
-function average (arr) {
-  var out = sum(arr) / arr.length
-  return out
+function mean (arr) {
+  return sum(arr) / arr.length
 }
 
 function varianC (arr) {
-  var vari = sum(arr.map(function (each) {
-    return Math.pow(each - average(arr), 2)
-  })) / arr.length
-  return vari
+  var vari = arr.map(function (each) {
+    return Math.pow(each - mean(arr), 2)
+  })
+  return sum(vari) / arr.length
 }
 
-module.exports = sum
-module.exports = average
 module.exports = varianC
